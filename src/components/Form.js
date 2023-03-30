@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../CSS/Style.module.css";
-import { nanoid } from 'https://cdn.jsdelivr.net/npm/nanoid/nanoid.js'
+import { nanoid } from 'nanoid';
 
 export default function Form({ todo, setTodo, todoList, setTodolist }) {
 
