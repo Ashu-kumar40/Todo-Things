@@ -1,0 +1,68 @@
+.header{
+    background-color: rgb(228, 228, 228);
+    color: #630ad6;
+    padding: 15px;
+}
+.form{
+    background-color: #e4e4e4;
+    color: #630ad6;
+    padding: 20px;
+    margin: 25px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.inputTitle{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.inputTitle:focus{
+    outline: none;
+}
+
+.addBtn{
+    background-color: #630ad6;
+    color: white;
+    padding: 10px 50px;
+    /* width: 150px; */
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.todoList{
+    width: 80%;
+    margin: auto;
+}
+
+.todoCard{
+    background-color: #e4e4e4;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.todoHeading{
+    /* font-weight: 700; */
+}
+.doneBtn{
+    background-color: #630ad6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
