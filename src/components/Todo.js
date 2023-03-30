@@ -17,7 +17,7 @@ export default function Todo() {
         todoList={todoList}
         setTodolist={setTodolist}
       />
-      <TodoList todoList={todoList}/>
+      <TodoList setTodolist={setTodolist} todoList={todoList}/>
     </div>
   );
 }

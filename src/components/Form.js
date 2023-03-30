@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../CSS/Style.module.css";
+import { nanoid } from 'https://cdn.jsdelivr.net/npm/nanoid/nanoid.js'
 
 export default function Form({ todo, setTodo, todoList, setTodolist }) {
 
@@ -10,7 +11,7 @@ export default function Form({ todo, setTodo, todoList, setTodolist }) {
 
   const HandleSubmit =(event) =>{
     event.preventDefault();
-    setTodolist([...todoList, todo]);
+    setTodolist([...todoList, {name:todo, id:nanoid(5)}]);
     // in the above line, we are using the spread operator to copy the todoList array and then adding the new todo to it. the three dots (...) are the spread operator.
     console.log(todoList);
     setTodo("")
